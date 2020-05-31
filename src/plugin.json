@@ -1,0 +1,9 @@
+{
+    "id": "mpb-plugin-1.15.2",
+    "minversion": 202000318613,
+    "info": {
+        "name": "A plugin to add more Procedure Blocks.",
+        "version": "a0.1",
+        "author": "Max094_Reikeb"
+    }
+}
