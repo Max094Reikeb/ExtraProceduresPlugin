@@ -3,8 +3,7 @@
 MoreProcedureBlocks is a MCreator plugin whose role is to give you more procedure blocks to make your freedom bigger. If you encounter any problem, go to the **Issues** tab and create a new one.
 
 # How do I install it?
-***
-There a two ways to install the plugin:
+There are two ways to install the plugin:
 
 ### Way A
 **First step a)** : close MCreator.
@@ -21,7 +20,6 @@ There a two ways to install the plugin:
 **Third step b)** : relaunch MCreator, if everything is fine, then procedure blocks should be here. If not, open an issue.
 
 # Credits/License
-***
 Lead Dev - Max094_Reikeb
 
 Contributors and helpers - Klemen, Goldorion
