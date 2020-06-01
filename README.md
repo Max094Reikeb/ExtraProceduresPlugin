@@ -20,7 +20,7 @@ There are two ways to install the plugin:
 **Third step b)** : relaunch MCreator, if everything is fine, then procedure blocks should be here. If not, open an issue.
 
 # Credits/License
-Lead Dev - Max094_Reikeb
+Devs - Max094_Reikeb & CrispyChips
 
 Contributors and helpers - Klemen, Goldorion
 
