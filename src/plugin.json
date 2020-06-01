@@ -1,9 +1,9 @@
 {
-    "id": "mpb-plugin-1.15.2",
+    "id": "ep-plugin-1.14.4-1.15.2",
     "minversion": 202000318613,
     "info": {
-        "name": "A plugin that adds more Procedure Blocks.",
-        "version": "a0.8",
-        "author": "Max094_Reikeb"
+        "name": "A plugin that adds Extra Procedures.",
+        "version": "a0.12",
+        "authors": "Max094_Reikeb & CrispyChips"
     }
 }
