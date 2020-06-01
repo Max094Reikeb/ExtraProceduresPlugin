@@ -1,6 +1,6 @@
-# MoreProcedureBlocks
+# ExtraProcedures
 
-MoreProcedureBlocks is a MCreator plugin whose role is to give you more procedure blocks to make your freedom bigger. If you encounter any problem, go to the **Issues** tab and create a new one.
+ExtraProcedures is a MCreator plugin whose role is to give you more procedure blocks to make your freedom bigger. If you encounter any problem, go to the **Issues** tab and create a new one.
 
 # How do I install it?
 There are two ways to install the plugin:
