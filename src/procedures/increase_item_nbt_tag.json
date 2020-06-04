@@ -25,7 +25,7 @@
         "toolbox_id": "itemmanagement",
         "toolbox_init": [
             "<value name=\"tag\"><block type=\"text\"><field name=\"TEXT\">tagName</field></block></value>",
-            "<value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\"></field></block></value>",
+            "<value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value>",
             "<value name=\"increase\"><block type=\"math_number\"></block></value>"
         ],
         "inputs": [
