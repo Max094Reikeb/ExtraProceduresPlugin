@@ -1,9 +1,9 @@
 {
-    "id": "ep-plugin-1.14.4-1.15.2",
+    "id": "ep-plugin",
     "minversion": 202000318613,
     "info": {
         "name": "A plugin that adds Extra Procedures.",
-        "version": "a0.20",
+        "version": "a0.30",
         "authors": "Max094_Reikeb & CrispyChips"
     }
 }
