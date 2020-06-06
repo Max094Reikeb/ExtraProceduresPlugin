@@ -8,7 +8,7 @@ There are two ways to install the plugin:
 ### Way A
 **First step a)** : close MCreator.
 
-**Second step a)** : go to <user>/.mcreator/plugins and place the .zip file of the plugin there.
+**Second step a)** : go to <user>/.mcreator/plugins and place the .zip file of the plugin there. You need to enable hidden folders on your OS to see this. 
 
 **Third step a)** : open MCreator, if everything is fine, then procedure blocks should be here. If not, open an issue.
 
