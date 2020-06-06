@@ -36,8 +36,6 @@
     "inputsInline": true,
     "output": "Boolean",
     "colour": "%{BKY_TEXTS_HUE}",
-    "previousStatement": null,
-    "nextStatement": null,
     "mcreator": {
         "toolbox_id": "itemmanagement",
         "toolbox_init": [
