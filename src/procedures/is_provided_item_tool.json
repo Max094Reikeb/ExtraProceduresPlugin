@@ -6,24 +6,24 @@
             "name": "tool_type",
             "options": [
                 [
-                    "SWORD",
-                    "SWORD"
+                    "SwordItem",
+                    "SwordItem"
                 ],
                 [
-                    "AXE",
-                    "AXE"
+                    "AxeItem",
+                    "AxeItem"
                 ],
                 [
-                    "PICKAXE",
-                    "PICKAXE"
+                    "PickaxeItem",
+                    "PickaxeItem"
                 ],
                 [
-                    "SHOVEL",
-                    "SHOVEL"
+                    "ShovelItem",
+                    "ShovelItem"
                 ],
                 [
-                    "HOE",
-                    "HOE"
+                    "HoeItem",
+                    "HoeItem"
                 ]
             ]
         },
@@ -35,7 +35,7 @@
     ],
     "inputsInline": true,
     "output": "Boolean",
-    "colour": "%{BKY_TEXTS_HUE}",
+    "colour": "%{BKY_MATH_HUE}",
     "mcreator": {
         "toolbox_id": "itemmanagement",
         "toolbox_init": [
