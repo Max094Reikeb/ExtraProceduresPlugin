@@ -1,7 +1,7 @@
 {
     "message0": "Get arrow power",
     "output": "Number",
-    "colour": "%{BKY_MATH_HUE}",
+    "colour": "%{BKY_LOGIC_HUE}",
     "mcreator": {
         "toolbox_id": "attack_category"
     }
