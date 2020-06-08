@@ -30,4 +30,4 @@ Devs - _Max094_Reikeb_ & _CrispyChips_
 
 Contributors and helpers - _Klemen_, _Goldorion_
 
-[License Here](../LICENSE)
+[License Here](../blob/master/LICENSE)
