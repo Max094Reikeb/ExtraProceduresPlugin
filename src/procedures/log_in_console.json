@@ -38,14 +38,15 @@
   "nextStatement": null,
   "colour": "%{BKY_TEXTS_HUE}",
   "mcreator": {
-    "toolbox_id": "entitymanagement",
+    "toolbox_id": "worldmanagement",
     "toolbox_init": [
-      "<value name=\"amount\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value>",
-      "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>"
+      "<value name=\"text\"><block type=\"text\"><field name=\"TEXT\">Message</field></block></value>"
     ],
     "inputs": [
-      "amount",
-      "entity"
+      "message"
+    ],
+    "fields": [
+      "message_type"
     ]
   }
 }

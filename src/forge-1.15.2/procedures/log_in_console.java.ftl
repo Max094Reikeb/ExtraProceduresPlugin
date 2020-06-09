@@ -1,1 +1,1 @@
-LogManager.getLogger("${modid}").${field$message_type}("${input$message}");
+LogManager.getLogger("${modid}").${field$message_type}(${input$message});
