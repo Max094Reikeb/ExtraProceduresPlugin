@@ -2,7 +2,8 @@
     "id": "ep-plugin",
     "minversion": 202000318613,
     "info": {
-        "name": "A plugin that adds Extra Procedures.",
+        "name": "Extra Procedures Plugin",
+        "description": "A plugin that adds extra procedures and global triggers.",
         "version": "a1.8",
         "authors": "Max094_Reikeb & CrispyChips"
     }
