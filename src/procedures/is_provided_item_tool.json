@@ -1,28 +1,28 @@
 {
-    "message0": "Is %2 tool type %1",
+    "message0": "Is %2 %1",
     "args0": [
         {
             "type": "field_dropdown",
             "name": "tool_type",
             "options": [
                 [
-                    "SwordItem",
+                    "Sword",
                     "SwordItem"
                 ],
                 [
-                    "AxeItem",
+                    "Axe",
                     "AxeItem"
                 ],
                 [
-                    "PickaxeItem",
+                    "Pickaxe",
                     "PickaxeItem"
                 ],
                 [
-                    "ShovelItem",
+                    "Shovel",
                     "ShovelItem"
                 ],
                 [
-                    "HoeItem",
+                    "Hoe",
                     "HoeItem"
                 ]
             ]
@@ -35,7 +35,7 @@
     ],
     "inputsInline": true,
     "output": "Boolean",
-    "colour": "%{BKY_MATH_HUE}",
+    "colour": "%{BKY_LOGIC_HUE}",
     "mcreator": {
         "toolbox_id": "itemmanagement",
         "toolbox_init": [
