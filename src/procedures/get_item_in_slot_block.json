@@ -1,0 +1,49 @@
+{
+    "message0": "Get item from slot %1 of block at x: %2 y: %3 z: %4 if it has inventory %5",
+    "args0": [
+        {
+			"type": "input_value",
+			"name": "slotid",
+			"check": "Number"
+		},
+        {
+			"type": "input_value",
+			"name": "x",
+			"check": "Number"
+		},
+		{
+			"type": "input_value",
+			"name": "y",
+			"check": "Number"
+		},
+		{
+			"type": "input_value",
+			"name": "z",
+			"check": "Number"
+        },
+        {
+            "type": "field_image",
+            "src": "./res/bi.png",
+            "width": 8,
+            "height": 36
+        }
+    ],
+    "output": "MCItem",
+    "inputsInline": true,
+    "colour": "60",
+    "mcreator": {
+        "toolbox_id": "blockactions",
+        "toolbox_init": [
+            "<value name=\"x\"><block type=\"coord_x\"></block></value>",
+			"<value name=\"y\"><block type=\"coord_y\"></block></value>",
+            "<value name=\"z\"><block type=\"coord_z\"></block></value>",
+            "<value name=\"slotid\"><block type=\"math_number\"></block></value>"
+        ],
+        "inputs": [
+			"x",
+			"y",
+            "z",
+            "slotid"
+        ]
+    }
+}
