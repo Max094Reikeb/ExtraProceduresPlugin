@@ -1,4 +1,4 @@
-if (!world.isRemote) {
+if (!world.getWorld().isRemote) {
 	BlockPos _bp = new BlockPos((int) ${input$x}, (int) ${input$y}, (int) ${input$z});
 	TileEntity _tileEntity = world.getTileEntity(_bp);
 	BlockState _bs = world.getBlockState(_bp);
@@ -11,5 +11,5 @@ if (!world.isRemote) {
 				return -1;
 			}
 		}.getValue(new BlockPos((int) ${input$x}, (int) ${input$y}, (int) ${input$z}), ${input$tag})) + ${input$increase}));
-	world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+	world.getWorld().notifyBlockUpdate(_bp, _bs, _bs, 3);
 }
