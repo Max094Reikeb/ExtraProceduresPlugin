@@ -1,0 +1,180 @@
+{
+    "message0": "Remove specific enchantment %1 from %2",
+    "args0": [
+        {
+            "type": "field_dropdown",
+            "name": "enchantment_type",
+            "options": [
+                [
+                    "SWEEPING_EDGE",
+                    "SWEEPING_EDGE"
+                ],
+                [
+                    "AQUA_AFFINITY",
+                    "AQUA_AFFINITY"
+                ],
+                [
+                    "DEPTH_STRIDER",
+                    "DEPTH_STRIDER"
+                ],
+                [
+                    "RESPIRATION",
+                    "RESPIRATION"
+                ],
+                [
+                    "LURE",
+                    "LURE"
+                ],
+                [
+                    "FIRE_ASPECT",
+                    "FIRE_ASPECT"
+                ],
+                [
+                    "LOOTING",
+                    "LOOTING"
+                ],
+                [
+                    "CHANNELING",
+                    "CHANNELING"
+                ],
+                [
+                    "LUCK_OF_THE_SEA",
+                    "LUCK_OF_THE_SEA"
+                ],
+                [
+                    "QUICK_CHARGE",
+                    "QUICK_CHARGE"
+                ],
+                [
+                    "SMITE",
+                    "SMITE"
+                ],
+                [
+                    "FEATHER_FALLING",
+                    "FEATHER_FALLING"
+                ],
+                [
+                    "EFFICIENCY",
+                    "EFFICIENCY"
+                ],
+                [
+                    "IMPALING",
+                    "IMPALING"
+                ],
+                [
+                    "THORNS",
+                    "THORNS"
+                ],
+                [
+                    "FLAME",
+                    "FLAME"
+                ],
+                [
+                    "BANE_OF_ARTHROPODS",
+                    "BANE_OF_ARTHROPODS"
+                ],
+                [
+                    "FORTUNE",
+                    "FORTUNE"
+                ],
+                [
+                    "PUNCH",
+                    "PUNCH"
+                ],
+                [
+                    "RIPTIDE",
+                    "RIPTIDE"
+                ],
+                [
+                    "INFINITY",
+                    "INFINITY"
+                ],
+                [
+                    "LOYALTY",
+                    "LOYALTY"
+                ],
+                [
+                    "CURSE_OF_BINDING",
+                    "CURSE_OF_BINDING"
+                ],
+                [
+                    "CURSE_OF_VANISHING",
+                    "CURSE_OF_VANISHING"
+                ],
+                [
+                    "PIERCING",
+                    "PIERCING"
+                ],
+                [
+                    "PROTECTION",
+                    "PROTECTION"
+                ],
+                [
+                    "BLAST_PROTECTION",
+                    "BLAST_PROTECTION"
+                ],
+                [
+                    "FIRE_PROTECTION",
+                    "FIRE_PROTECTION"
+                ],
+                [
+                    "PROJECTILE_PROTECTION",
+                    "PROJECTILE_PROTECTION"
+                ],
+                [
+                    "POWER",
+                    "POWER"
+                ],
+                [
+                    "MENDING",
+                    "MENDING"
+                ],
+                [
+                    "KNOCKBACK",
+                    "KNOCKBACK"
+                ],
+                [
+                    "FROST_WALKER",
+                    "FROST_WALKER"
+                ],
+                [
+                    "UNBREAKING",
+                    "UNBREAKING"
+                ],
+                [
+                    "MULTISHOT",
+                    "MULTISHOT"
+                ],
+                [
+                    "SILK_TOUCH",
+                    "SILK_TOUCH"
+                ],
+                [
+                    "SHARPNESS",
+                    "SHARPNESS"
+                ]
+            ]
+        },
+        {
+            "type": "input_value",
+            "name": "item",
+            "check": "MCItem"
+        }
+    ],
+    "inputsInline": true,
+    "colour": 350,
+    "previousStatement": null,
+    "nextStatement": null,
+    "mcreator": {
+        "toolbox_id": "itemmanagement",
+        "toolbox_init": [
+            "<value name=\"item\"><block type=\"itemstack_to_mcitem\"></block></value>"
+        ],
+        "inputs": [
+            "item"
+        ],
+        "fields": [
+            "enchantment_type"
+        ]
+    }
+}
