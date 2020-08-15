@@ -5,7 +5,7 @@
     "info": {
         "name": "Extra Procedures Plugin",
         "description": "A plugin that adds extra procedures and global triggers.",
-        "version": "r1.1.1",
+        "version": "r1.2",
         "authors": "Max094_Reikeb & CrispyChips"
     }
 }
