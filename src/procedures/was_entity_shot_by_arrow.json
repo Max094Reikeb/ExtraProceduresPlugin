@@ -1,0 +1,8 @@
+{
+    "message0": "Was entity shot by arrow",
+    "output": "Boolean",
+    "colour": "%{BKY_LOGIC_HUE}",
+    "mcreator": {
+        "toolbox_id": "attack_category"
+    }
+}

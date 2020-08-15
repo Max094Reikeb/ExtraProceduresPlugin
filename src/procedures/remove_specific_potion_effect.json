@@ -1,0 +1,152 @@
+{
+    "message0": "Remove specific potion effect type %1 from %2",
+    "args0": [
+        {
+            "type": "field_dropdown",
+            "name": "potion_type",
+            "options": [
+                [
+                    "SPEED",
+                    "SPEED"
+                ],
+                [
+                    "SLOWNESS",
+                    "SLOWNESS"
+                ],
+                [
+                    "HASTE",
+                    "HASTE"
+                ],
+                [
+                    "MINING_FATIGUE",
+                    "MINING_FATIGUE"
+                ],
+                [
+                    "STRENGHT",
+                    "STRENGHT"
+                ],
+                [
+                    "INSTANT_HEALTH",
+                    "INSTANT_HEALTH"
+                ],
+                [
+                    "INSTANT_DAMAGE",
+                    "INSTANT_DAMAGE"
+                ],
+                [
+                    "JUMP_BOOST",
+                    "JUMP_BOOST"
+                ],
+                [
+                    "NAUSEA",
+                    "NAUSEA"
+                ],
+                [
+                    "REGENERATION",
+                    "REGENERATION"
+                ],
+                [
+                    "RESISTANCE",
+                    "RESISTANCE"
+                ],
+                [
+                    "FIRE_RESISTANCE",
+                    "FIRE_RESISTANCE"
+                ],
+                [
+                    "WATER_BREATHING",
+                    "WATER_BREATHING"
+                ],
+                [
+                    "INVISIBILITY",
+                    "INVISIBILITY"
+                ],
+                [
+                    "BLINDNESS",
+                    "BLINDNESS"
+                ],
+                [
+                    "NIGHT_VISION",
+                    "NIGHT_VISION"
+                ],
+                [
+                    "HUNGER",
+                    "HUNGER"
+                ],
+                [
+                    "WEAKNESS",
+                    "WEAKNESS"
+                ],
+                [
+                    "POISON",
+                    "POISON"
+                ],
+                [
+                    "WITHER",
+                    "WITHER"
+                ],
+                [
+                    "HEALTH_BOOST",
+                    "HEALTH_BOOST"
+                ],
+                [
+                    "ABSORPTION",
+                    "ABSORPTION"
+                ],
+                [
+                    "SATURATION",
+                    "SATURATION"
+                ],
+                [
+                    "GLOWING",
+                    "GLOWING"
+                ],
+                [
+                    "LEVITATION",
+                    "LEVITATION"
+                ],
+                [
+                    "LUCK",
+                    "LUCK"
+                ],
+                [
+                    "UNLUCK",
+                    "UNLUCK"
+                ],
+                [
+                    "CONDUIT_POWER",
+                    "CONDUIT_POWER"
+                ],
+                [
+                    "DOLPHIN_GRACE",
+                    "DOLPHIN_GRACE"
+                ],
+                [
+                    "BAD_OMEN",
+                    "BAD_OMEN"
+                ]
+            ]
+        },
+        {
+            "type": "input_value",
+            "name": "entity",
+            "check": "Entity"
+        } 
+    ],
+    "inputsInline": true,
+    "colour": 175,
+    "previousStatement": null,
+    "nextStatement": null,
+    "mcreator": {
+        "toolbox_id": "entitymanagement",
+        "toolbox_init": [
+            "<value name=\"entity\"><block type=\"entity_from_deps\"></block></value>"
+        ],
+        "inputs": [
+            "entity"
+        ],
+        "fields": [
+            "potion_type"
+        ]
+    }
+}

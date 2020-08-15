@@ -1,0 +1,1 @@
+((LivingEntity) ${input$entity}).removePotionEffect(Effects.${field$potion_type});
