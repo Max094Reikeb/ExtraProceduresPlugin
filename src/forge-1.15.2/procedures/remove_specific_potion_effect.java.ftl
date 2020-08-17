@@ -1,1 +1,1 @@
-((LivingEntity) ${input$entity}).removePotionEffect(Effects.${field$potion_type});
+((LivingEntity) ${input$entity}).removePotionEffect(${generator.map(field$potion, "potions")});
