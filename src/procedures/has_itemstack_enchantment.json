@@ -1,5 +1,5 @@
 {
-    "message0": "Remove specific enchantment from %1 type",
+    "message0": "Has %1 enchantment",
     "args0": [
         {
             "type": "input_value",
@@ -8,9 +8,8 @@
         }
     ],
     "inputsInline": true,
-    "colour": 350,
-    "previousStatement": null,
-    "nextStatement": null,
+    "output": "Boolean",
+    "colour": "%{BKY_LOGIC_HUE}",
     "extensions": [
         "enhancement_list_provider"
     ],
