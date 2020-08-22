@@ -1,2 +1,4 @@
-DamageSource a = new DamageSource(${input$localization_text}).setDamageBypassesArmor();
-${entity}.attackEntityFrom(a, ${damage_number});
+if (${input$entity} instanceof LivingEntity) {
+    DamageSource a = new DamageSource(${input$localization_text}).setDamageBypassesArmor();
+    ((LivingEntity) ${input$entity}).attackEntityFrom(a, ${input$damage_number});
+}
