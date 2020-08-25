@@ -1,5 +1,5 @@
 {
-  "message0": "Heal %1 health point to %2 type:",
+  "message0": "Heal %1 health point to %2",
   "args0": [
     {
       "type": "input_value",

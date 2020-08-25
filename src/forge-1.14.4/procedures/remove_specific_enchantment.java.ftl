@@ -1,5 +1,5 @@
 Map<Enchantment, Integer> enchantments = EnchantmentHelper.getEnchantments(${input$item});
-if (enchantments.containsKey(Enchantments.${field$enchantment_type})) {
-	enchantments.remove(Enchantments.${field$enchantment_type});
+if (enchantments.containsKey(${generator.map(field$enhancement, "enchantments")})) {
+	enchantments.remove(${generator.map(field$enhancement, "enchantments")});
 	EnchantmentHelper.setEnchantments(enchantments, ${input$item});
 }

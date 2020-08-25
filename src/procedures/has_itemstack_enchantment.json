@@ -1,5 +1,5 @@
 {
-    "message0": "Get %1's display name",
+    "message0": "Has %1 enchantment",
     "args0": [
         {
             "type": "input_value",
@@ -8,8 +8,11 @@
         }
     ],
     "inputsInline": true,
-    "output": "String",
-    "colour": "%{BKY_TEXTS_HUE}",
+    "output": "Boolean",
+    "colour": "%{BKY_LOGIC_HUE}",
+    "extensions": [
+        "enhancement_list_provider"
+    ],
     "mcreator": {
         "toolbox_id": "itemmanagement",
         "toolbox_init": [
@@ -17,6 +20,9 @@
         ],
         "inputs": [
             "item"
+        ],
+        "fields": [
+            "enhancement"
         ]
     }
 }

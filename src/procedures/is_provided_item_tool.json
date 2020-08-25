@@ -1,28 +1,28 @@
 {
-    "message0": "Is %2 tool type %1",
+    "message0": "Is %2 %1",
     "args0": [
         {
             "type": "field_dropdown",
             "name": "tool_type",
             "options": [
                 [
-                    "SwordItem",
+                    "Sword",
                     "SwordItem"
                 ],
                 [
-                    "AxeItem",
+                    "Axe",
                     "AxeItem"
                 ],
                 [
-                    "PickaxeItem",
+                    "Pickaxe",
                     "PickaxeItem"
                 ],
                 [
-                    "ShovelItem",
+                    "Shovel",
                     "ShovelItem"
                 ],
                 [
-                    "HoeItem",
+                    "Hoe",
                     "HoeItem"
                 ]
             ]
