@@ -28,6 +28,6 @@ There are two ways to install the plugin:
 
 Devs - _Max094_Reikeb_ & _CrispyChips_
 
-Contributors and helpers - _Klemen_, _Goldorion_
+Contributors and helpers - _Klemen_, _Goldorion_, _BoogieMonster1O1, _NOYB
 
 [License Here](../master/LICENSE.md)
