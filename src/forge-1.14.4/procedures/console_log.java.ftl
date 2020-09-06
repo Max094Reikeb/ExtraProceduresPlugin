@@ -1,1 +1,1 @@
-LogManager.getLogger("${modid}").${field$message_type}(${input$message});
+org.apache.logging.log4j.LogManager.getLogger(${JavaModName}.class).${field$message_type}(${input$message});

@@ -1,0 +1,8 @@
+{
+    "message0": "Get shoot power of sourceentity if arrow",
+    "output": "Number",
+    "colour": "%{BKY_MATH_HUE}",
+    "mcreator": {
+        "toolbox_id": "entitymanagement"
+    }
+}
