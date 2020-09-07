@@ -1,5 +1,5 @@
 {
-    "message0": "Deal (int) %1 custom damage (hearts count * 2) to %2 localized as %3",
+    "message0": "Deal %1 custom damage (hearts count * 2) to %2 localized as death.attack.%3",
     "args0": [
         {
 			"type": "input_value",

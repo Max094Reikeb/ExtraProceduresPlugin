@@ -32,10 +32,6 @@
             "tag",
             "item",
             "increase"
-		],
-		"dependencies": [{
-			"name": "itemstack",
-			"type": "itemstack"
-		}]
+		]
     }
 }
