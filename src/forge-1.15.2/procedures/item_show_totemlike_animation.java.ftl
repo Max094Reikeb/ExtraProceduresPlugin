@@ -1,1 +1,0 @@
-Minecraft.getInstance().gameRenderer.displayItemActivation(${input$item});
