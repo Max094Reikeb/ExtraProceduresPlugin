@@ -1,11 +1,10 @@
 {
     "id": "ep-plugin",
-    "minversion": 202000431617,
-    "maxversion": 202000432115,
+    "minversion": 202000546219,
     "info": {
         "name": "ExtraProcedures Plugin",
         "description": "A plugin that adds extra procedures and global triggers.",
-        "version": "r1.2.1",
+        "version": "r1.3",
         "authors": "Max094_Reikeb & CrispyChips"
     }
 }
